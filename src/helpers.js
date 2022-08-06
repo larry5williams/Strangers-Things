@@ -9,6 +9,4 @@ const fetchRequest = async (url, fetchOptions) => {
   }
 };
 
-module.exports = {
-  fetchRequest,
-};
+export default fetchRequest;
